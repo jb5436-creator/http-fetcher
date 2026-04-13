@@ -12,7 +12,6 @@ def main():
             #prints recieved data
             print(f"Status         : {status}")
             print(f"Server         : {headers.get('Server')}")            
-            print(f"Body preview   : {body[:200]}")
             save_body(body, input_host)
             
             break
